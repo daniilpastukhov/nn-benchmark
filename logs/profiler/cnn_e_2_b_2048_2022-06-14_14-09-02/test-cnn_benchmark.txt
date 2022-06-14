@@ -1,0 +1,28 @@
+TEST Profiler Report
+Profile stats for: records
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                          ProfilerStep*         2.64%       3.979ms        99.97%     150.946ms      50.315ms     149.000us         0.10%     148.897ms      49.632ms             3  
+[pl][profile][Strategy]SingleDeviceStrategy.test_ste...         1.83%       2.767ms        88.16%     133.118ms      44.373ms     568.000us         0.38%     130.450ms      43.483ms             3  
+            [pl][module]benchmark.models.cnn.CNN: model         0.14%     208.000us        76.04%     114.820ms      38.273ms      28.000us         0.02%     112.848ms      37.616ms             3  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.69%       1.045ms        74.24%     112.102ms      37.367ms     100.000us         0.07%     111.831ms      37.277ms             3  
+                                           aten::conv2d         0.05%      78.000us        71.36%     107.746ms      11.972ms      25.000us         0.02%     108.579ms      12.064ms             9  
+                                      aten::convolution         0.06%      96.000us        71.31%     107.668ms      11.963ms      24.000us         0.02%     108.554ms      12.062ms             9  
+                                     aten::_convolution         0.18%     266.000us        71.24%     107.572ms      11.952ms      60.000us         0.04%     108.530ms      12.059ms             9  
+                                aten::cudnn_convolution        70.69%     106.743ms        70.82%     106.926ms      11.881ms     107.290ms        72.05%     107.310ms      11.923ms             9  
+[pl][module]torch.nn.modules.conv.Conv2d: model.conv...         0.13%     189.000us        38.99%      58.864ms      19.621ms      15.000us         0.01%      35.783ms      11.928ms             3  
+[pl][module]torch.nn.modules.conv.Conv2d: model.conv...         0.14%     212.000us        22.70%      34.281ms      11.427ms      11.000us         0.01%      41.452ms      13.817ms             3  
+[pl][module]torch.nn.modules.conv.Conv2d: model.conv...         0.10%     149.000us        10.05%      15.179ms       5.060ms      15.000us         0.01%      31.400ms      10.467ms             3  
+                                               aten::to         0.14%     211.000us         8.03%      12.132ms     186.646us     154.000us         0.10%      20.352ms     313.108us            65  
+                                         aten::_to_copy         0.31%     464.000us         7.90%      11.921ms     283.833us     568.000us         0.38%      20.198ms     480.905us            42  
+                                            aten::copy_         7.45%      11.247ms         7.45%      11.247ms     267.786us      19.572ms        13.14%      19.572ms     466.000us            42  
+[pl][profile][Strategy]SingleDeviceStrategy.batch_to...         0.27%     401.000us         6.88%      10.390ms       3.463ms      22.000us         0.01%      10.493ms       3.498ms             3  
+                                             aten::item         0.11%     162.000us         6.69%      10.098ms     374.000us      88.000us         0.06%       5.405ms     200.185us            27  
+                              aten::_local_scalar_dense         6.58%       9.936ms         6.58%       9.936ms     368.000us       5.317ms         3.57%       5.317ms     196.926us            27  
+                                       aten::is_nonzero         0.06%      96.000us         6.46%       9.753ms     464.429us      68.000us         0.05%       3.557ms     169.381us            21  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.31%     461.000us         1.61%       2.424ms     808.000us      53.000us         0.04%     940.000us     313.333us             3  
+[pl][profile][Callback]TQDMProgressBar.on_test_batch...         1.18%       1.778ms         1.18%       1.784ms     594.667us       7.000us         0.00%      12.000us       4.000us             3  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 150.991ms
+Self CUDA time total: 148.920ms

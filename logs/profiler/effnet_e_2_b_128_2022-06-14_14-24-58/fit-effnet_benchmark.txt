@@ -1,0 +1,28 @@
+FIT Profiler Report
+Profile stats for: records
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                          ProfilerStep*        10.85%      25.642ms        99.98%     236.236ms     118.118ms       7.016ms         2.62%     267.881ms     133.940ms             2  
+[pl][profile][Strategy]SingleDeviceStrategy.batch_to...         0.21%     491.000us        49.07%     115.953ms      57.977ms      13.000us         0.00%     109.298ms      54.649ms             2  
+                                               aten::to         0.03%      72.000us        48.87%     115.477ms       9.623ms      26.000us         0.01%     109.296ms       9.108ms            12  
+                                         aten::_to_copy         0.05%     113.000us        48.84%     115.405ms      28.851ms      19.000us         0.01%     109.270ms      27.317ms             4  
+                                            aten::copy_        48.76%     115.206ms        48.76%     115.206ms      28.802ms     109.246ms        40.78%     109.246ms      27.311ms             4  
+[pl][profile][Strategy]SingleDeviceStrategy.validati...         0.32%     748.000us        36.48%      86.207ms      43.103ms      41.000us         0.02%     151.177ms      75.588ms             2  
+[pl][module]torchvision.models.efficientnet.Efficien...         0.10%     235.000us        35.99%      85.054ms      42.527ms      30.000us         0.01%     151.011ms      75.505ms             2  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.16%     387.000us        35.46%      83.790ms      41.895ms      67.000us         0.03%     150.557ms      75.278ms             2  
+                                           aten::conv2d         0.50%       1.193ms         9.39%      22.198ms      96.513us     689.000us         0.26%      66.439ms     288.865us           230  
+                                      aten::convolution         0.59%       1.395ms         8.89%      21.005ms      91.326us     686.000us         0.26%      65.750ms     285.870us           230  
+                                     aten::_convolution         1.18%       2.783ms         8.30%      19.610ms      85.261us     974.000us         0.36%      65.064ms     282.887us           230  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.08%     196.000us         7.31%      17.268ms       8.634ms      41.000us         0.02%      20.470ms      10.235ms             2  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.07%     160.000us         6.19%      14.621ms       7.311ms      36.000us         0.01%      23.858ms      11.929ms             2  
+                                aten::cudnn_convolution         5.56%      13.137ms         5.84%      13.805ms      75.027us      32.356ms        12.08%      32.652ms     177.457us           184  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.07%     169.000us         5.83%      13.782ms       6.891ms      34.000us         0.01%      16.713ms       8.357ms             2  
+                                            aten::zeros         2.97%       7.009ms         4.77%      11.267ms      11.688us       4.184ms         1.56%       7.069ms       7.333us           964  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.07%     165.000us         4.38%      10.358ms       5.179ms      51.000us         0.02%      23.660ms      11.830ms             2  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.06%     132.000us         4.33%      10.240ms       5.120ms      25.000us         0.01%      37.573ms      18.787ms             2  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.05%     115.000us         3.95%       9.323ms       4.662ms      22.000us         0.01%       9.965ms       4.982ms             2  
+                                       aten::batch_norm         0.33%     785.000us         3.81%       9.002ms      65.232us     393.000us         0.15%      29.518ms     213.899us           138  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 236.295ms
+Self CUDA time total: 267.896ms

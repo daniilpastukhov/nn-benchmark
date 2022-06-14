@@ -1,0 +1,5269 @@
+
+{
+  "schemaVersion": 1,
+  "Framework": "pytorch-lightning",
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809165, "dur": 59,
+    "args": {
+       "External id": 3888,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809194, "dur": 12,
+    "args": {
+       "External id": 3889,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809214, "dur": 5,
+    "args": {
+       "External id": 3890,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "ProfilerStep#3", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809264, "dur": 15077,
+    "args": {
+       "External id": 3891,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809272, "dur": 7,
+    "args": {
+       "External id": 3892,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809399, "dur": 34,
+    "args": {
+       "External id": 3893,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809408, "dur": 8,
+    "args": {
+       "External id": 3894,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809424, "dur": 4,
+    "args": {
+       "External id": 3895,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][LightningModule]LitCNN.validation_step_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809456, "dur": 43,
+    "args": {
+       "External id": 3896,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809463, "dur": 6,
+    "args": {
+       "External id": 3897,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809560, "dur": 30,
+    "args": {
+       "External id": 3898,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809568, "dur": 7,
+    "args": {
+       "External id": 3899,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809581, "dur": 4,
+    "args": {
+       "External id": 3900,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Strategy]SingleDeviceStrategy.validation_step_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809610, "dur": 36,
+    "args": {
+       "External id": 3901,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809616, "dur": 6,
+    "args": {
+       "External id": 3902,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809743, "dur": 34,
+    "args": {
+       "External id": 3903,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809752, "dur": 8,
+    "args": {
+       "External id": 3904,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809767, "dur": 4,
+    "args": {
+       "External id": 3905,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]TQDMProgressBar.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809797, "dur": 1710,
+    "args": {
+       "External id": 3906,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644809804, "dur": 7,
+    "args": {
+       "External id": 3907,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811611, "dur": 41,
+    "args": {
+       "External id": 3908,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811623, "dur": 11,
+    "args": {
+       "External id": 3909,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811641, "dur": 5,
+    "args": {
+       "External id": 3910,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]ModelSummary.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811681, "dur": 62,
+    "args": {
+       "External id": 3911,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811688, "dur": 7,
+    "args": {
+       "External id": 3912,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811786, "dur": 30,
+    "args": {
+       "External id": 3913,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811793, "dur": 7,
+    "args": {
+       "External id": 3914,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811806, "dur": 5,
+    "args": {
+       "External id": 3915,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]GradientAccumulationScheduler.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811836, "dur": 46,
+    "args": {
+       "External id": 3916,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811843, "dur": 6,
+    "args": {
+       "External id": 3917,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811940, "dur": 40,
+    "args": {
+       "External id": 3918,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811950, "dur": 14,
+    "args": {
+       "External id": 3919,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644811970, "dur": 5,
+    "args": {
+       "External id": 3920,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]ModelCheckpoint{'monitor': None, 'mode': 'min', 'every_n_train_steps': 0, 'every_n_epochs': 1, 'train_time_interval': None, 'save_on_train_epoch_end': True}.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812001, "dur": 44,
+    "args": {
+       "External id": 3921,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812008, "dur": 6,
+    "args": {
+       "External id": 3922,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812111, "dur": 31,
+    "args": {
+       "External id": 3923,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812119, "dur": 7,
+    "args": {
+       "External id": 3924,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812132, "dur": 4,
+    "args": {
+       "External id": 3925,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][LightningModule]LitCNN.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812161, "dur": 38,
+    "args": {
+       "External id": 3926,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812168, "dur": 6,
+    "args": {
+       "External id": 3927,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812515, "dur": 36,
+    "args": {
+       "External id": 3928,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812526, "dur": 8,
+    "args": {
+       "External id": 3929,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812541, "dur": 5,
+    "args": {
+       "External id": 3930,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "enumerate(DataLoader)#_MultiProcessingDataLoaderIter.__next__", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812575, "dur": 1183,
+    "args": {
+       "External id": 3931,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812582, "dur": 7,
+    "args": {
+       "External id": 3932,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812962, "dur": 17,
+    "args": {
+       "External id": 3933,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644812989, "dur": 5,
+    "args": {
+       "External id": 3934,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::detach_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644813003, "dur": 17,
+    "args": {
+       "External id": 3935,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "detach_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644813009, "dur": 7,
+    "args": {
+       "External id": 3936,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::set_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644813040, "dur": 15,
+    "args": {
+       "External id": 3937,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644813190, "dur": 10,
+    "args": {
+       "External id": 3938,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644813208, "dur": 5,
+    "args": {
+       "External id": 3939,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::detach_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644813220, "dur": 15,
+    "args": {
+       "External id": 3940,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "detach_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644813225, "dur": 5,
+    "args": {
+       "External id": 3941,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::set_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644813250, "dur": 10,
+    "args": {
+       "External id": 3942,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814144, "dur": 62,
+    "args": {
+       "External id": 3943,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814176, "dur": 11,
+    "args": {
+       "External id": 3944,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814196, "dur": 5,
+    "args": {
+       "External id": 3945,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Strategy]SingleDeviceStrategy.batch_to_device", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814242, "dur": 3420,
+    "args": {
+       "External id": 3946,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814250, "dur": 7,
+    "args": {
+       "External id": 3947,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814368, "dur": 3082,
+    "args": {
+       "External id": 3948,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_to_copy", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814378, "dur": 3067,
+    "args": {
+       "External id": 3949,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814391, "dur": 21,
+    "args": {
+       "External id": 3950,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::copy_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644814421, "dur": 3006,
+    "args": {
+       "External id": 3951,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644817497, "dur": 103,
+    "args": {
+       "External id": 3952,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_to_copy", "pid": 25344, "tid": 21592,
+    "ts": 1655208644817505, "dur": 90,
+    "args": {
+       "External id": 3953,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644817516, "dur": 19,
+    "args": {
+       "External id": 3954,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::copy_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644817543, "dur": 46,
+    "args": {
+       "External id": 3955,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818625, "dur": 39,
+    "args": {
+       "External id": 3956,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818640, "dur": 9,
+    "args": {
+       "External id": 3957,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818656, "dur": 4,
+    "args": {
+       "External id": 3958,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]TQDMProgressBar.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818690, "dur": 49,
+    "args": {
+       "External id": 3959,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818697, "dur": 5,
+    "args": {
+       "External id": 3960,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818775, "dur": 24,
+    "args": {
+       "External id": 3961,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818781, "dur": 5,
+    "args": {
+       "External id": 3962,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818791, "dur": 4,
+    "args": {
+       "External id": 3963,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]ModelSummary.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818816, "dur": 37,
+    "args": {
+       "External id": 3964,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818821, "dur": 5,
+    "args": {
+       "External id": 3965,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818882, "dur": 24,
+    "args": {
+       "External id": 3966,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818888, "dur": 5,
+    "args": {
+       "External id": 3967,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818898, "dur": 4,
+    "args": {
+       "External id": 3968,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]GradientAccumulationScheduler.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818921, "dur": 38,
+    "args": {
+       "External id": 3969,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644818926, "dur": 6,
+    "args": {
+       "External id": 3970,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819004, "dur": 24,
+    "args": {
+       "External id": 3971,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819010, "dur": 5,
+    "args": {
+       "External id": 3972,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819021, "dur": 3,
+    "args": {
+       "External id": 3973,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]ModelCheckpoint{'monitor': None, 'mode': 'min', 'every_n_train_steps': 0, 'every_n_epochs': 1, 'train_time_interval': None, 'save_on_train_epoch_end': True}.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819044, "dur": 34,
+    "args": {
+       "External id": 3974,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819049, "dur": 5,
+    "args": {
+       "External id": 3975,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819125, "dur": 24,
+    "args": {
+       "External id": 3976,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819131, "dur": 6,
+    "args": {
+       "External id": 3977,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819142, "dur": 3,
+    "args": {
+       "External id": 3978,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][LightningModule]LitCNN.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819164, "dur": 30,
+    "args": {
+       "External id": 3979,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819170, "dur": 5,
+    "args": {
+       "External id": 3980,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819255, "dur": 25,
+    "args": {
+       "External id": 3981,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819262, "dur": 5,
+    "args": {
+       "External id": 3982,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819272, "dur": 4,
+    "args": {
+       "External id": 3983,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Strategy]SingleDeviceStrategy.validation_step", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819296, "dur": 4999,
+    "args": {
+       "External id": 3984,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819301, "dur": 5,
+    "args": {
+       "External id": 3985,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819381, "dur": 25,
+    "args": {
+       "External id": 3986,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819388, "dur": 5,
+    "args": {
+       "External id": 3987,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819398, "dur": 4,
+    "args": {
+       "External id": 3988,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]benchmark.models.cnn.CNN: model", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819422, "dur": 4116,
+    "args": {
+       "External id": 3989,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819428, "dur": 5,
+    "args": {
+       "External id": 3990,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819466, "dur": 23,
+    "args": {
+       "External id": 3991,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819471, "dur": 5,
+    "args": {
+       "External id": 3992,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819481, "dur": 4,
+    "args": {
+       "External id": 3993,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.container.Sequential: model.conv", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819504, "dur": 2910,
+    "args": {
+       "External id": 3994,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819510, "dur": 5,
+    "args": {
+       "External id": 3995,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819544, "dur": 23,
+    "args": {
+       "External id": 3996,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819549, "dur": 5,
+    "args": {
+       "External id": 3997,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819559, "dur": 3,
+    "args": {
+       "External id": 3998,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.conv.Conv2d: model.conv.0", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819581, "dur": 355,
+    "args": {
+       "External id": 3999,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819586, "dur": 5,
+    "args": {
+       "External id": 4000,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::conv2d", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819620, "dur": 287,
+    "args": {
+       "External id": 4001,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819629, "dur": 273,
+    "args": {
+       "External id": 4002,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819638, "dur": 259,
+    "args": {
+       "External id": 4003,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819654, "dur": 171,
+    "args": {
+       "External id": 4004,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819698, "dur": 8,
+    "args": {
+       "External id": 4005,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::reshape", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819835, "dur": 19,
+    "args": {
+       "External id": 4006,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819843, "dur": 7,
+    "args": {
+       "External id": 4007,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819859, "dur": 32,
+    "args": {
+       "External id": 4008,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819972, "dur": 26,
+    "args": {
+       "External id": 4009,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819979, "dur": 7,
+    "args": {
+       "External id": 4010,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644819991, "dur": 3,
+    "args": {
+       "External id": 4011,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.batchnorm.BatchNorm2d: model.conv.1", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820017, "dur": 315,
+    "args": {
+       "External id": 4012,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820022, "dur": 6,
+    "args": {
+       "External id": 4013,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820077, "dur": 228,
+    "args": {
+       "External id": 4014,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_batch_norm_impl_index", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820086, "dur": 212,
+    "args": {
+       "External id": 4015,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820097, "dur": 190,
+    "args": {
+       "External id": 4016,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_like", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820119, "dur": 25,
+    "args": {
+       "External id": 4017,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820126, "dur": 13,
+    "args": {
+       "External id": 4018,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820159, "dur": 8,
+    "args": {
+       "External id": 4019,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820175, "dur": 6,
+    "args": {
+       "External id": 4020,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820186, "dur": 6,
+    "args": {
+       "External id": 4021,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820197, "dur": 5,
+    "args": {
+       "External id": 4022,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820364, "dur": 27,
+    "args": {
+       "External id": 4023,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820371, "dur": 7,
+    "args": {
+       "External id": 4024,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820383, "dur": 4,
+    "args": {
+       "External id": 4025,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.activation.LeakyReLU: model.conv.2", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820410, "dur": 98,
+    "args": {
+       "External id": 4026,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820416, "dur": 5,
+    "args": {
+       "External id": 4027,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::leaky_relu", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820449, "dur": 38,
+    "args": {
+       "External id": 4028,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820534, "dur": 25,
+    "args": {
+       "External id": 4029,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820540, "dur": 6,
+    "args": {
+       "External id": 4030,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820551, "dur": 4,
+    "args": {
+       "External id": 4031,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.conv.Conv2d: model.conv.3", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820575, "dur": 397,
+    "args": {
+       "External id": 4032,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820580, "dur": 6,
+    "args": {
+       "External id": 4033,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::conv2d", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820615, "dur": 324,
+    "args": {
+       "External id": 4034,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820622, "dur": 312,
+    "args": {
+       "External id": 4035,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820632, "dur": 297,
+    "args": {
+       "External id": 4036,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820645, "dur": 216,
+    "args": {
+       "External id": 4037,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820678, "dur": 10,
+    "args": {
+       "External id": 4038,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::reshape", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820871, "dur": 19,
+    "args": {
+       "External id": 4039,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820879, "dur": 6,
+    "args": {
+       "External id": 4040,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644820895, "dur": 28,
+    "args": {
+       "External id": 4041,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821004, "dur": 27,
+    "args": {
+       "External id": 4042,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821011, "dur": 7,
+    "args": {
+       "External id": 4043,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821023, "dur": 4,
+    "args": {
+       "External id": 4044,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.batchnorm.BatchNorm2d: model.conv.4", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821049, "dur": 226,
+    "args": {
+       "External id": 4045,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821055, "dur": 5,
+    "args": {
+       "External id": 4046,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821103, "dur": 151,
+    "args": {
+       "External id": 4047,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_batch_norm_impl_index", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821110, "dur": 138,
+    "args": {
+       "External id": 4048,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821119, "dur": 122,
+    "args": {
+       "External id": 4049,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_like", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821140, "dur": 24,
+    "args": {
+       "External id": 4050,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821147, "dur": 13,
+    "args": {
+       "External id": 4051,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821178, "dur": 8,
+    "args": {
+       "External id": 4052,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821194, "dur": 6,
+    "args": {
+       "External id": 4053,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821206, "dur": 5,
+    "args": {
+       "External id": 4054,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821216, "dur": 6,
+    "args": {
+       "External id": 4055,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821302, "dur": 25,
+    "args": {
+       "External id": 4056,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821308, "dur": 7,
+    "args": {
+       "External id": 4057,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821320, "dur": 3,
+    "args": {
+       "External id": 4058,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.activation.LeakyReLU: model.conv.5", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821344, "dur": 86,
+    "args": {
+       "External id": 4059,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821350, "dur": 5,
+    "args": {
+       "External id": 4060,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::leaky_relu", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821378, "dur": 33,
+    "args": {
+       "External id": 4061,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821454, "dur": 25,
+    "args": {
+       "External id": 4062,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821460, "dur": 6,
+    "args": {
+       "External id": 4063,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821471, "dur": 4,
+    "args": {
+       "External id": 4064,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.conv.Conv2d: model.conv.6", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821494, "dur": 434,
+    "args": {
+       "External id": 4065,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821499, "dur": 6,
+    "args": {
+       "External id": 4066,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::conv2d", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821533, "dur": 362,
+    "args": {
+       "External id": 4067,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821540, "dur": 351,
+    "args": {
+       "External id": 4068,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821548, "dur": 337,
+    "args": {
+       "External id": 4069,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821561, "dur": 223,
+    "args": {
+       "External id": 4070,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821592, "dur": 9,
+    "args": {
+       "External id": 4071,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::reshape", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821794, "dur": 18,
+    "args": {
+       "External id": 4072,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821801, "dur": 7,
+    "args": {
+       "External id": 4073,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821817, "dur": 61,
+    "args": {
+       "External id": 4074,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821965, "dur": 28,
+    "args": {
+       "External id": 4075,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821972, "dur": 7,
+    "args": {
+       "External id": 4076,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644821985, "dur": 4,
+    "args": {
+       "External id": 4077,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.batchnorm.BatchNorm2d: model.conv.7", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822013, "dur": 224,
+    "args": {
+       "External id": 4078,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822018, "dur": 6,
+    "args": {
+       "External id": 4079,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822067, "dur": 149,
+    "args": {
+       "External id": 4080,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_batch_norm_impl_index", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822074, "dur": 136,
+    "args": {
+       "External id": 4081,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822083, "dur": 120,
+    "args": {
+       "External id": 4082,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_like", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822104, "dur": 23,
+    "args": {
+       "External id": 4083,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822110, "dur": 12,
+    "args": {
+       "External id": 4084,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822141, "dur": 8,
+    "args": {
+       "External id": 4085,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822157, "dur": 6,
+    "args": {
+       "External id": 4086,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822168, "dur": 5,
+    "args": {
+       "External id": 4087,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822178, "dur": 5,
+    "args": {
+       "External id": 4088,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822265, "dur": 25,
+    "args": {
+       "External id": 4089,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822271, "dur": 7,
+    "args": {
+       "External id": 4090,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822283, "dur": 3,
+    "args": {
+       "External id": 4091,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.activation.LeakyReLU: model.conv.8", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822308, "dur": 85,
+    "args": {
+       "External id": 4092,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822313, "dur": 5,
+    "args": {
+       "External id": 4093,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::leaky_relu", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822341, "dur": 33,
+    "args": {
+       "External id": 4094,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822440, "dur": 24,
+    "args": {
+       "External id": 4095,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822446, "dur": 6,
+    "args": {
+       "External id": 4096,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822457, "dur": 3,
+    "args": {
+       "External id": 4097,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.container.Sequential: model.fc", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822480, "dur": 1038,
+    "args": {
+       "External id": 4098,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822485, "dur": 5,
+    "args": {
+       "External id": 4099,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822521, "dur": 23,
+    "args": {
+       "External id": 4100,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822526, "dur": 6,
+    "args": {
+       "External id": 4101,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822537, "dur": 3,
+    "args": {
+       "External id": 4102,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.flatten.Flatten: model.fc.0", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822558, "dur": 72,
+    "args": {
+       "External id": 4103,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822564, "dur": 5,
+    "args": {
+       "External id": 4104,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::flatten", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822589, "dur": 26,
+    "args": {
+       "External id": 4105,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822598, "dur": 13,
+    "args": {
+       "External id": 4106,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822652, "dur": 24,
+    "args": {
+       "External id": 4107,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822657, "dur": 6,
+    "args": {
+       "External id": 4108,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822668, "dur": 4,
+    "args": {
+       "External id": 4109,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.linear.LazyLinear: model.fc.1", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822692, "dur": 319,
+    "args": {
+       "External id": 4110,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822697, "dur": 5,
+    "args": {
+       "External id": 4111,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::linear", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822728, "dur": 258,
+    "args": {
+       "External id": 4112,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::t", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822735, "dur": 33,
+    "args": {
+       "External id": 4113,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::transpose", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822743, "dur": 18,
+    "args": {
+       "External id": 4114,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822749, "dur": 7,
+    "args": {
+       "External id": 4115,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::addmm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822774, "dur": 204,
+    "args": {
+       "External id": 4116,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::expand", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822794, "dur": 15,
+    "args": {
+       "External id": 4117,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644822800, "dur": 5,
+    "args": {
+       "External id": 4118,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823041, "dur": 26,
+    "args": {
+       "External id": 4119,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823047, "dur": 7,
+    "args": {
+       "External id": 4120,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823059, "dur": 4,
+    "args": {
+       "External id": 4121,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.activation.LeakyReLU: model.fc.2", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823085, "dur": 87,
+    "args": {
+       "External id": 4122,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823091, "dur": 5,
+    "args": {
+       "External id": 4123,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::leaky_relu", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823120, "dur": 33,
+    "args": {
+       "External id": 4124,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823199, "dur": 25,
+    "args": {
+       "External id": 4125,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823205, "dur": 6,
+    "args": {
+       "External id": 4126,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823216, "dur": 4,
+    "args": {
+       "External id": 4127,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.linear.LazyLinear: model.fc.3", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823240, "dur": 254,
+    "args": {
+       "External id": 4128,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823245, "dur": 5,
+    "args": {
+       "External id": 4129,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::linear", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823274, "dur": 195,
+    "args": {
+       "External id": 4130,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::t", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823280, "dur": 30,
+    "args": {
+       "External id": 4131,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::transpose", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823286, "dur": 16,
+    "args": {
+       "External id": 4132,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823292, "dur": 6,
+    "args": {
+       "External id": 4133,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::addmm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823315, "dur": 146,
+    "args": {
+       "External id": 4134,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::expand", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823332, "dur": 15,
+    "args": {
+       "External id": 4135,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823338, "dur": 5,
+    "args": {
+       "External id": 4136,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cross_entropy_loss", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823561, "dur": 154,
+    "args": {
+       "External id": 4137,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::log_softmax", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823581, "dur": 52,
+    "args": {
+       "External id": 4138,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823588, "dur": 4,
+    "args": {
+       "External id": 4139,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_log_softmax", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823598, "dur": 29,
+    "args": {
+       "External id": 4140,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::nll_loss_nd", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823639, "dur": 70,
+    "args": {
+       "External id": 4141,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::nll_loss", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823647, "dur": 58,
+    "args": {
+       "External id": 4142,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::nll_loss_forward", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823655, "dur": 42,
+    "args": {
+       "External id": 4143,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::resize_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823675, "dur": 6,
+    "args": {
+       "External id": 4144,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::detach", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823833, "dur": 21,
+    "args": {
+       "External id": 4145,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "detach", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823840, "dur": 11,
+    "args": {
+       "External id": 4146,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644823978, "dur": 5,
+    "args": {
+       "External id": 4147,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mean", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824031, "dur": 67,
+    "args": {
+       "External id": 4148,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mean", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824040, "dur": 52,
+    "args": {
+       "External id": 4149,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824057, "dur": 6,
+    "args": {
+       "External id": 4150,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mul", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824117, "dur": 33,
+    "args": {
+       "External id": 4151,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824167, "dur": 27,
+    "args": {
+       "External id": 4152,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824216, "dur": 23,
+    "args": {
+       "External id": 4153,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824389, "dur": 28,
+    "args": {
+       "External id": 4154,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824396, "dur": 7,
+    "args": {
+       "External id": 4155,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824409, "dur": 4,
+    "args": {
+       "External id": 4156,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "ProfilerStep#4", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824439, "dur": 10735,
+    "args": {
+       "External id": 4157,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824444, "dur": 6,
+    "args": {
+       "External id": 4158,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824533, "dur": 26,
+    "args": {
+       "External id": 4159,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824540, "dur": 6,
+    "args": {
+       "External id": 4160,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824551, "dur": 4,
+    "args": {
+       "External id": 4161,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][LightningModule]LitCNN.validation_step_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824576, "dur": 31,
+    "args": {
+       "External id": 4162,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824581, "dur": 5,
+    "args": {
+       "External id": 4163,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824655, "dur": 24,
+    "args": {
+       "External id": 4164,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824661, "dur": 6,
+    "args": {
+       "External id": 4165,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824672, "dur": 3,
+    "args": {
+       "External id": 4166,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Strategy]SingleDeviceStrategy.validation_step_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824694, "dur": 29,
+    "args": {
+       "External id": 4167,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824700, "dur": 4,
+    "args": {
+       "External id": 4168,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824799, "dur": 26,
+    "args": {
+       "External id": 4169,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824806, "dur": 6,
+    "args": {
+       "External id": 4170,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824817, "dur": 4,
+    "args": {
+       "External id": 4171,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]TQDMProgressBar.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824842, "dur": 1972,
+    "args": {
+       "External id": 4172,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644824847, "dur": 6,
+    "args": {
+       "External id": 4173,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644826881, "dur": 32,
+    "args": {
+       "External id": 4174,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644826890, "dur": 8,
+    "args": {
+       "External id": 4175,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644826904, "dur": 4,
+    "args": {
+       "External id": 4176,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]ModelSummary.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644826935, "dur": 52,
+    "args": {
+       "External id": 4177,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644826941, "dur": 6,
+    "args": {
+       "External id": 4178,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827029, "dur": 35,
+    "args": {
+       "External id": 4179,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827038, "dur": 7,
+    "args": {
+       "External id": 4180,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827052, "dur": 6,
+    "args": {
+       "External id": 4181,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]GradientAccumulationScheduler.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827087, "dur": 49,
+    "args": {
+       "External id": 4182,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827095, "dur": 7,
+    "args": {
+       "External id": 4183,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827196, "dur": 35,
+    "args": {
+       "External id": 4184,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827205, "dur": 8,
+    "args": {
+       "External id": 4185,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827220, "dur": 6,
+    "args": {
+       "External id": 4186,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]ModelCheckpoint{'monitor': None, 'mode': 'min', 'every_n_train_steps': 0, 'every_n_epochs': 1, 'train_time_interval': None, 'save_on_train_epoch_end': True}.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827250, "dur": 39,
+    "args": {
+       "External id": 4187,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827256, "dur": 5,
+    "args": {
+       "External id": 4188,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827342, "dur": 25,
+    "args": {
+       "External id": 4189,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827349, "dur": 5,
+    "args": {
+       "External id": 4190,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827360, "dur": 3,
+    "args": {
+       "External id": 4191,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][LightningModule]LitCNN.on_validation_batch_end", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827383, "dur": 31,
+    "args": {
+       "External id": 4192,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827389, "dur": 5,
+    "args": {
+       "External id": 4193,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827660, "dur": 28,
+    "args": {
+       "External id": 4194,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827669, "dur": 6,
+    "args": {
+       "External id": 4195,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827680, "dur": 4,
+    "args": {
+       "External id": 4196,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "enumerate(DataLoader)#_MultiProcessingDataLoaderIter.__next__", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827708, "dur": 408,
+    "args": {
+       "External id": 4197,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644827713, "dur": 5,
+    "args": {
+       "External id": 4198,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828204, "dur": 19,
+    "args": {
+       "External id": 4199,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828209, "dur": 5,
+    "args": {
+       "External id": 4200,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828218, "dur": 2,
+    "args": {
+       "External id": 4201,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Strategy]SingleDeviceStrategy.batch_to_device", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828409, "dur": 2276,
+    "args": {
+       "External id": 4202,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828419, "dur": 6,
+    "args": {
+       "External id": 4203,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828526, "dur": 2041,
+    "args": {
+       "External id": 4204,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_to_copy", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828533, "dur": 2031,
+    "args": {
+       "External id": 4205,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828541, "dur": 11,
+    "args": {
+       "External id": 4206,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::copy_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644828556, "dur": 1998,
+    "args": {
+       "External id": 4207,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644830593, "dur": 59,
+    "args": {
+       "External id": 4208,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_to_copy", "pid": 25344, "tid": 21592,
+    "ts": 1655208644830598, "dur": 51,
+    "args": {
+       "External id": 4209,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644830604, "dur": 11,
+    "args": {
+       "External id": 4210,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::copy_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644830619, "dur": 26,
+    "args": {
+       "External id": 4211,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831311, "dur": 28,
+    "args": {
+       "External id": 4212,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831323, "dur": 6,
+    "args": {
+       "External id": 4213,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831333, "dur": 3,
+    "args": {
+       "External id": 4214,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]TQDMProgressBar.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831358, "dur": 32,
+    "args": {
+       "External id": 4215,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831362, "dur": 4,
+    "args": {
+       "External id": 4216,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831413, "dur": 18,
+    "args": {
+       "External id": 4217,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831418, "dur": 4,
+    "args": {
+       "External id": 4218,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831426, "dur": 2,
+    "args": {
+       "External id": 4219,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]ModelSummary.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831442, "dur": 25,
+    "args": {
+       "External id": 4220,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831446, "dur": 4,
+    "args": {
+       "External id": 4221,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831486, "dur": 16,
+    "args": {
+       "External id": 4222,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831490, "dur": 4,
+    "args": {
+       "External id": 4223,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831497, "dur": 2,
+    "args": {
+       "External id": 4224,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]GradientAccumulationScheduler.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831512, "dur": 23,
+    "args": {
+       "External id": 4225,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831516, "dur": 3,
+    "args": {
+       "External id": 4226,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831563, "dur": 16,
+    "args": {
+       "External id": 4227,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831567, "dur": 4,
+    "args": {
+       "External id": 4228,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831574, "dur": 3,
+    "args": {
+       "External id": 4229,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Callback]ModelCheckpoint{'monitor': None, 'mode': 'min', 'every_n_train_steps': 0, 'every_n_epochs': 1, 'train_time_interval': None, 'save_on_train_epoch_end': True}.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831590, "dur": 23,
+    "args": {
+       "External id": 4230,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831594, "dur": 3,
+    "args": {
+       "External id": 4231,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831643, "dur": 17,
+    "args": {
+       "External id": 4232,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831648, "dur": 4,
+    "args": {
+       "External id": 4233,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831655, "dur": 2,
+    "args": {
+       "External id": 4234,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][LightningModule]LitCNN.on_validation_batch_start", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831671, "dur": 20,
+    "args": {
+       "External id": 4235,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831675, "dur": 4,
+    "args": {
+       "External id": 4236,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831730, "dur": 17,
+    "args": {
+       "External id": 4237,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831735, "dur": 3,
+    "args": {
+       "External id": 4238,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831742, "dur": 2,
+    "args": {
+       "External id": 4239,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][profile][Strategy]SingleDeviceStrategy.validation_step", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831758, "dur": 3384,
+    "args": {
+       "External id": 4240,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831762, "dur": 3,
+    "args": {
+       "External id": 4241,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831817, "dur": 20,
+    "args": {
+       "External id": 4242,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831821, "dur": 4,
+    "args": {
+       "External id": 4243,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831830, "dur": 3,
+    "args": {
+       "External id": 4244,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]benchmark.models.cnn.CNN: model", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831853, "dur": 2785,
+    "args": {
+       "External id": 4245,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831858, "dur": 4,
+    "args": {
+       "External id": 4246,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831887, "dur": 16,
+    "args": {
+       "External id": 4247,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831891, "dur": 3,
+    "args": {
+       "External id": 4248,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831898, "dur": 3,
+    "args": {
+       "External id": 4249,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.container.Sequential: model.conv", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831914, "dur": 1952,
+    "args": {
+       "External id": 4250,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831918, "dur": 3,
+    "args": {
+       "External id": 4251,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831941, "dur": 16,
+    "args": {
+       "External id": 4252,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831945, "dur": 4,
+    "args": {
+       "External id": 4253,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831952, "dur": 2,
+    "args": {
+       "External id": 4254,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.conv.Conv2d: model.conv.0", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831970, "dur": 231,
+    "args": {
+       "External id": 4255,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831974, "dur": 3,
+    "args": {
+       "External id": 4256,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::conv2d", "pid": 25344, "tid": 21592,
+    "ts": 1655208644831997, "dur": 184,
+    "args": {
+       "External id": 4257,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832002, "dur": 176,
+    "args": {
+       "External id": 4258,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832009, "dur": 165,
+    "args": {
+       "External id": 4259,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832019, "dur": 107,
+    "args": {
+       "External id": 4260,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832047, "dur": 5,
+    "args": {
+       "External id": 4261,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::reshape", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832133, "dur": 13,
+    "args": {
+       "External id": 4262,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832138, "dur": 5,
+    "args": {
+       "External id": 4263,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832149, "dur": 21,
+    "args": {
+       "External id": 4264,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832220, "dur": 19,
+    "args": {
+       "External id": 4265,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832225, "dur": 4,
+    "args": {
+       "External id": 4266,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832233, "dur": 3,
+    "args": {
+       "External id": 4267,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.batchnorm.BatchNorm2d: model.conv.1", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832251, "dur": 209,
+    "args": {
+       "External id": 4268,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832254, "dur": 4,
+    "args": {
+       "External id": 4269,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832290, "dur": 153,
+    "args": {
+       "External id": 4270,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_batch_norm_impl_index", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832296, "dur": 143,
+    "args": {
+       "External id": 4271,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832302, "dur": 131,
+    "args": {
+       "External id": 4272,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_like", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832317, "dur": 16,
+    "args": {
+       "External id": 4273,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832321, "dur": 9,
+    "args": {
+       "External id": 4274,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832342, "dur": 6,
+    "args": {
+       "External id": 4275,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832353, "dur": 5,
+    "args": {
+       "External id": 4276,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832362, "dur": 3,
+    "args": {
+       "External id": 4277,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832369, "dur": 4,
+    "args": {
+       "External id": 4278,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832481, "dur": 20,
+    "args": {
+       "External id": 4279,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832486, "dur": 5,
+    "args": {
+       "External id": 4280,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832495, "dur": 2,
+    "args": {
+       "External id": 4281,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.activation.LeakyReLU: model.conv.2", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832513, "dur": 63,
+    "args": {
+       "External id": 4282,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832517, "dur": 4,
+    "args": {
+       "External id": 4283,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::leaky_relu", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832539, "dur": 24,
+    "args": {
+       "External id": 4284,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832594, "dur": 18,
+    "args": {
+       "External id": 4285,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832598, "dur": 5,
+    "args": {
+       "External id": 4286,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832606, "dur": 3,
+    "args": {
+       "External id": 4287,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.conv.Conv2d: model.conv.3", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832622, "dur": 264,
+    "args": {
+       "External id": 4288,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832626, "dur": 4,
+    "args": {
+       "External id": 4289,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::conv2d", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832649, "dur": 217,
+    "args": {
+       "External id": 4290,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832654, "dur": 208,
+    "args": {
+       "External id": 4291,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832660, "dur": 199,
+    "args": {
+       "External id": 4292,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832669, "dur": 144,
+    "args": {
+       "External id": 4293,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832691, "dur": 7,
+    "args": {
+       "External id": 4294,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::reshape", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832820, "dur": 12,
+    "args": {
+       "External id": 4295,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832825, "dur": 4,
+    "args": {
+       "External id": 4296,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832836, "dur": 19,
+    "args": {
+       "External id": 4297,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832906, "dur": 18,
+    "args": {
+       "External id": 4298,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832910, "dur": 5,
+    "args": {
+       "External id": 4299,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832919, "dur": 2,
+    "args": {
+       "External id": 4300,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.batchnorm.BatchNorm2d: model.conv.4", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832937, "dur": 155,
+    "args": {
+       "External id": 4301,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832941, "dur": 4,
+    "args": {
+       "External id": 4302,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832977, "dur": 102,
+    "args": {
+       "External id": 4303,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_batch_norm_impl_index", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832982, "dur": 92,
+    "args": {
+       "External id": 4304,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644832989, "dur": 81,
+    "args": {
+       "External id": 4305,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_like", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833003, "dur": 16,
+    "args": {
+       "External id": 4306,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833007, "dur": 8,
+    "args": {
+       "External id": 4307,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833028, "dur": 5,
+    "args": {
+       "External id": 4308,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833038, "dur": 5,
+    "args": {
+       "External id": 4309,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833046, "dur": 4,
+    "args": {
+       "External id": 4310,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833053, "dur": 4,
+    "args": {
+       "External id": 4311,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833110, "dur": 19,
+    "args": {
+       "External id": 4312,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833114, "dur": 5,
+    "args": {
+       "External id": 4313,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833123, "dur": 3,
+    "args": {
+       "External id": 4314,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.activation.LeakyReLU: model.conv.5", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833141, "dur": 57,
+    "args": {
+       "External id": 4315,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833145, "dur": 4,
+    "args": {
+       "External id": 4316,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::leaky_relu", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833164, "dur": 22,
+    "args": {
+       "External id": 4317,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833215, "dur": 17,
+    "args": {
+       "External id": 4318,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833219, "dur": 4,
+    "args": {
+       "External id": 4319,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833227, "dur": 2,
+    "args": {
+       "External id": 4320,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.conv.Conv2d: model.conv.6", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833242, "dur": 299,
+    "args": {
+       "External id": 4321,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833246, "dur": 3,
+    "args": {
+       "External id": 4322,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::conv2d", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833268, "dur": 250,
+    "args": {
+       "External id": 4323,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833273, "dur": 242,
+    "args": {
+       "External id": 4324,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833278, "dur": 233,
+    "args": {
+       "External id": 4325,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_convolution", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833287, "dur": 154,
+    "args": {
+       "External id": 4326,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833307, "dur": 7,
+    "args": {
+       "External id": 4327,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::reshape", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833448, "dur": 12,
+    "args": {
+       "External id": 4328,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833453, "dur": 4,
+    "args": {
+       "External id": 4329,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833464, "dur": 42,
+    "args": {
+       "External id": 4330,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833562, "dur": 20,
+    "args": {
+       "External id": 4331,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833568, "dur": 5,
+    "args": {
+       "External id": 4332,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833576, "dur": 3,
+    "args": {
+       "External id": 4333,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.batchnorm.BatchNorm2d: model.conv.7", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833595, "dur": 151,
+    "args": {
+       "External id": 4334,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833599, "dur": 4,
+    "args": {
+       "External id": 4335,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833632, "dur": 100,
+    "args": {
+       "External id": 4336,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_batch_norm_impl_index", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833637, "dur": 91,
+    "args": {
+       "External id": 4337,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cudnn_batch_norm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833643, "dur": 80,
+    "args": {
+       "External id": 4338,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_like", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833656, "dur": 16,
+    "args": {
+       "External id": 4339,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833661, "dur": 8,
+    "args": {
+       "External id": 4340,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833682, "dur": 5,
+    "args": {
+       "External id": 4341,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833692, "dur": 4,
+    "args": {
+       "External id": 4342,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833699, "dur": 4,
+    "args": {
+       "External id": 4343,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833706, "dur": 4,
+    "args": {
+       "External id": 4344,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833765, "dur": 18,
+    "args": {
+       "External id": 4345,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833769, "dur": 5,
+    "args": {
+       "External id": 4346,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833777, "dur": 3,
+    "args": {
+       "External id": 4347,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.activation.LeakyReLU: model.conv.8", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833794, "dur": 58,
+    "args": {
+       "External id": 4348,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833798, "dur": 3,
+    "args": {
+       "External id": 4349,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::leaky_relu", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833817, "dur": 22,
+    "args": {
+       "External id": 4350,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833882, "dur": 17,
+    "args": {
+       "External id": 4351,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833886, "dur": 4,
+    "args": {
+       "External id": 4352,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833893, "dur": 3,
+    "args": {
+       "External id": 4353,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.container.Sequential: model.fc", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833910, "dur": 715,
+    "args": {
+       "External id": 4354,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833913, "dur": 4,
+    "args": {
+       "External id": 4355,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833937, "dur": 16,
+    "args": {
+       "External id": 4356,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833941, "dur": 3,
+    "args": {
+       "External id": 4357,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833947, "dur": 3,
+    "args": {
+       "External id": 4358,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.flatten.Flatten: model.fc.0", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833966, "dur": 50,
+    "args": {
+       "External id": 4359,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833970, "dur": 3,
+    "args": {
+       "External id": 4360,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::flatten", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833988, "dur": 18,
+    "args": {
+       "External id": 4361,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_reshape_alias", "pid": 25344, "tid": 21592,
+    "ts": 1655208644833994, "dur": 9,
+    "args": {
+       "External id": 4362,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834031, "dur": 16,
+    "args": {
+       "External id": 4363,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834035, "dur": 3,
+    "args": {
+       "External id": 4364,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834042, "dur": 3,
+    "args": {
+       "External id": 4365,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.linear.LazyLinear: model.fc.1", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834057, "dur": 224,
+    "args": {
+       "External id": 4366,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834061, "dur": 3,
+    "args": {
+       "External id": 4367,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::linear", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834080, "dur": 184,
+    "args": {
+       "External id": 4368,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::t", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834085, "dur": 22,
+    "args": {
+       "External id": 4369,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::transpose", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834091, "dur": 11,
+    "args": {
+       "External id": 4370,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834095, "dur": 4,
+    "args": {
+       "External id": 4371,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::addmm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834111, "dur": 148,
+    "args": {
+       "External id": 4372,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::expand", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834125, "dur": 10,
+    "args": {
+       "External id": 4373,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834129, "dur": 3,
+    "args": {
+       "External id": 4374,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834300, "dur": 19,
+    "args": {
+       "External id": 4375,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834305, "dur": 5,
+    "args": {
+       "External id": 4376,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834314, "dur": 2,
+    "args": {
+       "External id": 4377,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.activation.LeakyReLU: model.fc.2", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834331, "dur": 58,
+    "args": {
+       "External id": 4378,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834335, "dur": 3,
+    "args": {
+       "External id": 4379,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::leaky_relu", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834354, "dur": 22,
+    "args": {
+       "External id": 4380,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zeros", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834407, "dur": 18,
+    "args": {
+       "External id": 4381,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834411, "dur": 5,
+    "args": {
+       "External id": 4382,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::zero_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834420, "dur": 2,
+    "args": {
+       "External id": 4383,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "[pl][module]torch.nn.modules.linear.LazyLinear: model.fc.3", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834436, "dur": 172,
+    "args": {
+       "External id": 4384,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834439, "dur": 4,
+    "args": {
+       "External id": 4385,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::linear", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834459, "dur": 133,
+    "args": {
+       "External id": 4386,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::t", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834463, "dur": 20,
+    "args": {
+       "External id": 4387,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::transpose", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834467, "dur": 11,
+    "args": {
+       "External id": 4388,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834471, "dur": 4,
+    "args": {
+       "External id": 4389,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::addmm", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834487, "dur": 100,
+    "args": {
+       "External id": 4390,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::expand", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834499, "dur": 10,
+    "args": {
+       "External id": 4391,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834503, "dur": 3,
+    "args": {
+       "External id": 4392,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::cross_entropy_loss", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834654, "dur": 98,
+    "args": {
+       "External id": 4393,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::log_softmax", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834659, "dur": 35,
+    "args": {
+       "External id": 4394,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834664, "dur": 3,
+    "args": {
+       "External id": 4395,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_log_softmax", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834671, "dur": 20,
+    "args": {
+       "External id": 4396,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::nll_loss_nd", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834699, "dur": 48,
+    "args": {
+       "External id": 4397,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::nll_loss", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834703, "dur": 41,
+    "args": {
+       "External id": 4398,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::nll_loss_forward", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834712, "dur": 27,
+    "args": {
+       "External id": 4399,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::resize_", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834725, "dur": 3,
+    "args": {
+       "External id": 4400,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::detach", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834831, "dur": 14,
+    "args": {
+       "External id": 4401,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "detach", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834836, "dur": 6,
+    "args": {
+       "External id": 4402,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::to", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834937, "dur": 3,
+    "args": {
+       "External id": 4403,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mean", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834967, "dur": 46,
+    "args": {
+       "External id": 4404,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mean", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834972, "dur": 37,
+    "args": {
+       "External id": 4405,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 25344, "tid": 21592,
+    "ts": 1655208644834984, "dur": 5,
+    "args": {
+       "External id": 4406,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mul", "pid": 25344, "tid": 21592,
+    "ts": 1655208644835025, "dur": 22,
+    "args": {
+       "External id": 4407,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add", "pid": 25344, "tid": 21592,
+    "ts": 1655208644835058, "dur": 18,
+    "args": {
+       "External id": 4408,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add", "pid": 25344, "tid": 21592,
+    "ts": 1655208644835090, "dur": 15,
+    "args": {
+       "External id": 4409,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1655208644809113, "pid": 25344, "tid": 12576,
+    "args": {
+      "name": "thread 12576 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1655208644809113, "pid": 25344, "tid": 12576,
+    "args": {
+      "sort_index": 12576
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1655208644809113, "pid": 25344, "tid": 21592,
+    "args": {
+      "name": "thread 21592 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1655208644809113, "pid": 25344, "tid": 21592,
+    "args": {
+      "sort_index": 21592
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 1655208644809113, "dur": 26599,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1655208644809113,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 1655208644836156
+  }
+]}

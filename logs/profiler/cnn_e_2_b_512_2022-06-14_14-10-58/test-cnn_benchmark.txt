@@ -1,0 +1,28 @@
+TEST Profiler Report
+Profile stats for: records
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                                          ProfilerStep*         3.11%       4.101ms        99.96%     132.005ms      44.002ms     272.000us         0.21%     129.650ms      43.217ms             3  
+[pl][profile][Strategy]SingleDeviceStrategy.test_ste...         2.20%       2.899ms        91.18%     120.404ms      40.135ms     743.000us         0.57%     122.734ms      40.911ms             3  
+                                             aten::item         0.15%     200.000us        76.00%     100.353ms       3.717ms     117.000us         0.09%       5.899ms     218.481us            27  
+                              aten::_local_scalar_dense        75.84%     100.153ms        75.84%     100.153ms       3.709ms       5.782ms         4.46%       5.782ms     214.148us            27  
+                                       aten::is_nonzero         0.08%     102.000us        75.66%      99.906ms       4.757ms      92.000us         0.07%       3.861ms     183.857us            21  
+                                               aten::to         0.17%     226.000us         6.95%       9.177ms     136.970us     241.000us         0.19%      18.515ms     276.343us            67  
+                                         aten::_to_copy         0.34%     450.000us         6.78%       8.951ms     213.119us       1.599ms         1.23%      18.274ms     435.095us            42  
+                                            aten::copy_         6.29%       8.310ms         6.29%       8.310ms     197.857us      16.587ms        12.79%      16.587ms     394.929us            42  
+            [pl][module]benchmark.models.cnn.CNN: model         0.14%     189.000us         5.26%       6.946ms       2.315ms      41.000us         0.03%      97.488ms      32.496ms             3  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.53%     700.000us         3.70%       4.888ms       1.629ms     154.000us         0.12%      95.317ms      31.772ms             3  
+[pl][profile][Strategy]SingleDeviceStrategy.batch_to...         0.28%     364.000us         2.08%       2.750ms     916.667us      35.000us         0.03%       5.684ms       1.895ms             3  
+                                           aten::conv2d         0.05%      62.000us         1.38%       1.824ms     202.667us      42.000us         0.03%      15.838ms       1.760ms             9  
+[pl][module]torch.nn.modules.container.Sequential: m...         0.25%     324.000us         1.35%       1.777ms     592.333us      65.000us         0.05%       2.053ms     684.333us             3  
+                                      aten::convolution         0.06%      74.000us         1.33%       1.762ms     195.778us      37.000us         0.03%      15.796ms       1.755ms             9  
+[pl][profile][Callback]TQDMProgressBar.on_test_batch...         1.29%       1.701ms         1.29%       1.706ms     568.667us      15.000us         0.01%      22.000us       7.333us             3  
+                                     aten::_convolution         0.15%     192.000us         1.28%       1.688ms     187.556us      87.000us         0.07%      15.759ms       1.751ms             9  
+enumerate(DataLoader)#_MultiProcessingDataLoaderIter...         1.11%       1.465ms         1.23%       1.619ms     539.667us      51.000us         0.04%     117.000us      39.000us             3  
+                                            aten::zeros         0.73%     966.000us         1.23%       1.618ms      15.863us       2.977ms         2.30%       4.226ms      41.431us           102  
+                                aten::cudnn_convolution         0.93%       1.223ms         0.96%       1.266ms     140.667us      10.563ms         8.14%      10.584ms       1.176ms             9  
+                                            aten::empty         0.78%       1.031ms         0.78%       1.031ms       3.567us     653.000us         0.50%     653.000us       2.260us           289  
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 132.052ms
+Self CUDA time total: 129.689ms
